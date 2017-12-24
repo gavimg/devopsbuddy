@@ -9,11 +9,27 @@
 
 <div class="container">
 
-	<div class="starter-template">
-		<h1 th:text="#{index.main.callout}">Enter main call out here</h1>
-		<p class="lead">Use this document as a way to quickly start any new project.<br /> All you get is this text and a
-			mostly barebones HTML document.</p>
+	<div class="jumbotron text-center">
+		<h1 th:text="#{index.h1.text}"></h1>
+		<p class="lead" th:text="#{index.p.lead}"></p>
 	</div>
+	<dov class="row">
+		<div class="col-md-6">
+			<div class="well">
+				<h2 class="text-center" th:text="#{index.basic.mebership}"></h2>
+				<h4 th:text="#{index.h4.basic.membership}"></h4>
+				<br/>
+				<a class="btn btn-success btn-lg btn-block" th:text="#{index.basic.signup.button}"></a>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="well">
+				<h2 class="text-center" th:text="#{index.pro.membership}"></h2>
+				<h4 th:text="#{index.h4.pro.membership}"></h4>
+				<a class="btn btn-success btn-lg btn-block" th:text="#{index.pro.signup.button}"></a>
+			</div>
+		</div>
+	</dov>
 
 </div><!-- /.container -->
 
