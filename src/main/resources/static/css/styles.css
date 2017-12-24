@@ -1,8 +1,61 @@
 body {
-    padding-top: 50px;
+    padding-top: 120px;
+
+    background: #085078;
+    background: -webkit-linear-gradient(to left, #085078, #85D8CE); /* Chrome 10-25 Safari 5.1.6 */
+    background: linear-gradient(to left, #085078, #85D8CE); /* W3C, IE 10+/ Edge Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+/*------------------------------------------------------
+ * Courtesy of the carousal Bootstrap example at:
+ * https://getbootstrap.com/2.3.2/examples/carousal.html
+ *------------------------------------------------------*/
+
+/* MARKETING CONTENT
+   ------------------------------------*/
+.marketing .span4 {
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .span4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.member-title {
+    color: #f0f8ff;
+}
+
+/* Featuretts
+   -----------------------*/
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    padding-top: 120px;
+    overflow: hidden;
+}
+.featurette-image {
+    margin-top: -120px;
+}
+.featurette-image .pull-right {
+    margin-left: 40px;
+}
+.featurette-image .pull-left {
+    margin-right: 40px;
+}
+.featurett-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
 }

@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/header :: common-header" />
+
+<body>
+
+<div th:replace="common/navbar :: common-navbar" />
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron">
+					<h1 class="text-center" th:text="#{copy.h1.text}"></h1>
+					<p th:text="#{copy.p.lead}"></p>
+				</div>
+			</div>
+		</div>
+	</div><!-- /.container -->
+
+
+	<div class="container marketing">
+		<div class="row">
+			<div class="col-md-4 span4">
+				<a href="">
+					<img
+							src="https://secure.gravatar.com/avatar/22c6b77f4deebed1eb1ee096e2e171d7"
+							alt="Gavi The Smart Boy"
+							width="140px"
+							height="140px"
+							class="img-circle"/>
+					<h2>Gavi<small class="member-title">Full stack developer</small> </h2>
+					<div class="span4 collapse-group">
+						<p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+						<p><a href="#" class="btn btn-primary btn-collapse" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 span4">
+				<a href="">
+					<img
+							src="https://secure.gravatar.com/avatar/22c6b77f4deebed1eb1ee096e2e171d7"
+							alt="Gavi The Smart Boy"
+							width="140px"
+							height="140px"
+							class="img-circle"/>
+					<h2>Gavi<small class="member-title">Full stack developer</small> </h2>
+					<div class="span4 collapse-group">
+						<p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+						<p><a href="#" class="btn btn-primary btn-collapse" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 span4">
+				<a href="">
+					<img
+							src="https://secure.gravatar.com/avatar/22c6b77f4deebed1eb1ee096e2e171d7"
+							alt="Gavi The Smart Boy"
+							width="140px"
+							height="140px"
+							class="img-circle"/>
+					<h2>Gavi<small class="member-title">Full stack developer</small> </h2>
+					<div class="span4 collapse-group">
+						<p class="collapse text-justify" th:text="#{copy.project.lead.intro}"></p>
+						<p><a href="#" class="btn btn-primary btn-collapse" role="button" th:text="#{copy.viewdetails.button}"></a></p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<!-- START THE FEATURETTS -->
+		<hr class="featurette-divider"/>
+		<div class="featurette">
+			<img th:src="@{/images/browser-icon-chrome.png}" alt="" class="feturette-image pull-right"/>
+			<h2 class="featurett-heading">First Feature Heading. <span class="muted">It'll blow your mind.</span> </h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eius eos iste laboriosam,
+				magnam mollitia nobis optio porro quasi quisquam repellendus sit sunt! Ad eos et impedit incidunt
+				ipsa maxime natus porro reprehenderit temporibus. Aliquam consectetur debitis deleniti deserunt explicabo
+				harum nostrum qui quidem, ratione, reprehenderit, repudiandae sit ut voluptates!</p>
+		</div>
+
+		<hr class="featurette-divider"/>
+		<div class="featurette">
+			<img th:src="@{/images/browser-icon-firefox.png}" alt="" class="featurette-image pull-left"/>
+			<h2 class="featurette-heading">First Feature Heading. <span class="muted">It'll blow your mind.</span> </h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eius eos iste laboriosam,
+				magnam mollitia nobis optio porro quasi quisquam repellendus sit sunt! Ad eos et impedit incidunt
+				ipsa maxime natus porro reprehenderit temporibus. Aliquam consectetur debitis deleniti deserunt explicabo
+				harum nostrum qui quidem, ratione, reprehenderit, repudiandae sit ut voluptates!</p>
+		</div>
+		<hr class="featurette-divider"/>
+		<div class="featurette">
+			<img th:src="@{/images/browser-icon-safari.png}" alt="" class="feturette-image pull-right"/>
+			<h2 class="featurette-heading">First Feature Heading. <span class="muted">It'll blow your mind.</span> </h2>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eius eos iste laboriosam,
+				magnam mollitia nobis optio porro quasi quisquam repellendus sit sunt! Ad eos et impedit incidunt
+				ipsa maxime natus porro reprehenderit temporibus. Aliquam consectetur debitis deleniti deserunt explicabo
+				harum nostrum qui quidem, ratione, reprehenderit, repudiandae sit ut voluptates!</p>
+		</div>
+
+		<footer>
+			<p>&copy; 2018 Gavi Gadagi &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> </p>
+		</footer>
+	</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<div th:replace="common/header :: before-body-script" />
+</body>
+</html>
