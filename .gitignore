@@ -26,3 +26,4 @@ target
 .project
 .idea
 .devopsbuddy.iml
+.idea/workspace.xml
