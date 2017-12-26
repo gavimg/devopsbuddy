@@ -1,6 +1,8 @@
 # devopsbuddy
 Startup-ready web skeleton
 
-# How To Build
-
+# How to build
+Run the following command: 
+```
 mvn clean install
+```
